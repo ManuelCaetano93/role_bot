@@ -1,0 +1,16 @@
+{
+  "name": "discord_roleplaying_helper",
+  "version": "0.0.0",
+  "description": "Roleplaying Helper",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev-start": "nodemon --legacy-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

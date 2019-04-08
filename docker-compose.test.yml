@@ -1,0 +1,16 @@
+version: "3"
+services:
+  discord_bot:
+    environment:
+      - BOT_TOKEN=INSERT-TOKEN-HERE
+    image: manuelcaetano93/node_dev_env
+    volumes:
+      - ./discord_bot/:/usr/src/api
+    ports:
+      - 4000:4000
+  nest_server:
+    image: manuelcaetano93/node_dev_env
+    volumes:
+      - ./nest_server/:/usr/src/api
+    ports:
+      - 3000:4000
